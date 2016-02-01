@@ -7,6 +7,12 @@
         "title": "Generic",
         "type": "section"
     }, {
+        "title": "Parameters for twitter streaming API",
+        "ui_width": 3,
+        "name": "search",
+        "type": "string",
+        "default": ""
+    }, {
         "title": "Foreground Color",
         "ui_width": 3,
         "name": "foreground",
