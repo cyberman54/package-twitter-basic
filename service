@@ -142,4 +142,4 @@ if __name__ == '__main__':
     resizer.start()
 
     stream = Stream(auth, StreamHandler())
-    stream.userstream(with='following')
+    stream.userstream(_with='following')
