@@ -8,7 +8,7 @@
         "type": "section"
     }, {
         "title": "Parameters for twitter streaming API",
-        "ui_width": 3,
+        "ui_width": 10,
         "name": "search",
         "type": "string",
         "default": ""
