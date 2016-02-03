@@ -41,7 +41,7 @@ util.data_mapper{
         tweet.text = wrap(tweet.text, 27)
         tweet.created_at = sys.now() - tweet.age
         table.insert(tweets, tweet)
-        if #tweets > 10 then
+        if #tweets > CONFIG.max_tweets then
             table.remove(tweets, 1)
         end
     end
