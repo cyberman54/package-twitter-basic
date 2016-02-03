@@ -31,6 +31,13 @@
         "type": "duration",
         "default": 5
     },
+      
+        "title": "Number of Tweets",
+        "ui_width": 3,
+        "name": "max_tweets",
+        "type": "number",
+        "default": 10
+    },
         
     {
         "title": "Authentication",
