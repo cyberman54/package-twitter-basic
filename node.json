@@ -34,7 +34,7 @@
         "title": "Number of Tweets",
         "ui_width": 3,
         "name": "max_tweets",
-        "type": "number",
+        "type": "integer",
         "default": 10
     },
         
